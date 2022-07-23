@@ -14,10 +14,10 @@
 <Navbar />
 <div class="bg-cover bg-center min-h-screen" style="background-image: url({bg})"></div>
  <div class="absolute inset-0">
-  <div  data-aos="zoom-in" class="min-h-screen flex items-center  px-3 sm:px-10 md:px-20 lg:px-32 xl:px-52 2xl:px-96 bg-gradient-to-t from-[black]  boyut ">
+  <div  data-aos="zoom-in" class="min-h-screen flex justify-center items-center px-3 bg-gradient-to-t from-[#202225]  boyut ">
       <div class="items-center mt-16 sm:mb-32 flex flex-col space-y-5 ">
         <img class="h-32 sm:mt-0 mt-10 sm:h-40 xl:mt-32 2xl:h-52" src={logo2} alt="">
-        <h1 class=" text-center  text-white/70 mt-5 text-font text-lg break-words sm:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia ab quae provident natus! Illum, quia! Debitis, atque incidunt accusantium, quo dicta maiores voluptatibus magni repudiandae illo nobis omnis. Voluptatem?</h1>
+        <h1 class=" text-center  text-white/70 mt-5 text-font sm:w-[40rem] text-lg break-words sm:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia ab quae provident natus! Illum, quia! Debitis, atque incidunt accusantium, quo dicta maiores voluptatibus magni repudiandae illo nobis omnis. Voluptatem?</h1>
               <div class="relative w-[5rem] sm:w-[10rem] lg:w-[40rem]">
                 <img  src={sarı} class=" absolute right-[11rem] sm:right-[23rem] md:right-[24rem] lg:right-[38rem] top-1.5 h-6" alt="">
               </div>
@@ -36,7 +36,7 @@
    </a>
  </div>  
 
-<div class="min-h-screen bg-black"></div>
+<div class="min-h-screen bg-[#202225]"></div>
 
 
 
