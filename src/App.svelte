@@ -38,8 +38,8 @@
    </a>
  </div>  
 
-<div class="min-h-screen px-5 py-10 sm:px-20 bg-[#202225]">
-  <div class="lg:bg-gradient-to-l bg-gradient-to-t relative py-3 flex lg:flex-row flex-col items-center md:justify-end justify-start px-3 mt-5 h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
+<div class="min-h-screen px-5 py-10 2xl:px-20 bg-[#202225]">
+  <div class="md:bg-gradient-to-l bg-gradient-to-t relative py-3 flex md:flex-row flex-col items-center md:justify-end px-3 mt-5 h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
     <img src={server} class="absolute pointer-events-none h-96 md:inset-x-4 right-0" alt="">
     <h1>dasds</h1>
   </div>
