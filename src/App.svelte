@@ -6,6 +6,10 @@
   import sarı from "./assets/sar.svg"
   import mavi from "./assets/mavi.svg"
   import server from "./assets/servers.svg"
+  import rank from "./assets/rankcard.svg"
+  import slash from "./assets/slashcommands.svg"
+
+
 </script>
 <style>
   .text-font {
@@ -38,9 +42,9 @@
    </a>
  </div>  
 
-<div class="min-h-screen px-5 py-10 2xl:px-20 bg-[#202225]">
-  <div class="md:bg-gradient-to-r bg-gradient-to-t py-3 flex md:flex-row flex-col items-center md:justify-end justify-center px-3 mt-5 md:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
-    <img src={server} class="md:absolute pointer-events-none md:h-72 lg:h-96 h-72  left-5 mr-5" alt="">
+<div class="min-h-screen space-y-20 flex flex-col items-center justify-center px-5 py-10 2xl:px-32 bg-[#202225]">
+  <div data-aos="fade-up" class="md:bg-gradient-to-r bg-gradient-to-b py-3 flex md:flex-row flex-col items-center md:justify-end justify-center px-3 mt-5 md:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
+    <img src={server} class="md:absolute pointer-events-none md:h-72 lg:h-96 h-72  left-10 mr-5" alt="">
     <div class="flex md:text-end text-center items-center md:items-end flex-col">
       <h2 class="text-font text-end mr-4 text-[#afafaf]">Features</h2>
       <h1 class="text-font text-white font-extrabold text-4xl mr-4">Server</h1>
@@ -51,7 +55,32 @@
     </div>
        
   </div>
-
+    <div class="h-0.5 w-[10rem] sm:w-[40rem] mt-5 bg-[#444649]"></div>
+  <div data-aos="fade-up" class="md:bg-gradient-to-l bg-gradient-to-b py-3 flex md:flex-row flex-col items-center md:justify-start justify-center px-3 mt-5 md:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
+    <img src={rank} class="md:absolute pointer-events-none md:h-72 lg:h-72 h-20 w-auto right-5 ml-5" alt="">
+    <div class="flex md:text-start text-center items-center md:items-start flex-col">
+      <h2 class="text-font text-end mr-4 text-[#afafaf]">Features</h2>
+      <h1 class="text-font text-white font-extrabold text-4xl mr-4">Ranking</h1>
+      <p class="text-font text-white text-lg mr-1 w-auto mt-3 md:w-[20rem] lg:w-[20rem] xl:w-[40rem] 2xl:w-[60rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, maxime eum. Sequi, distinctio laudantium voluptatem fuga unde excepturi magnam reiciendis, quisquam, repudiandae similique impedit mollitia beatae odio. Ab, assumenda error.</p>
+      <a href="login" class="px-3 items-center text-center mt-5 w-64 rounded-[6.5px] text-black bg-white py-2">
+        <span class="text-black text-font font-bold text-lg">More İnfo</span>
+      </a>
+    </div>
+       
+  </div>
+    <div class="h-0.5 w-[10rem] sm:w-[40rem] mt-5 bg-[#444649]"></div>
+  <div data-aos="fade-up" class="md:bg-gradient-to-r bg-gradient-to-b py-3 flex md:flex-row flex-col items-center md:justify-end justify-center px-3 mt-5 md:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
+    <img src={slash} class="md:absolute pointer-events-none md:h-72 h-72  left-10 mr-5" alt="">
+    <div class="flex md:text-end text-center items-center md:items-end flex-col">
+      <h2 class="text-font text-end mr-4 text-[#afafaf]">Features</h2>
+      <h1 class="text-font text-white font-extrabold text-4xl mr-4">And More, More</h1>
+      <p class="text-font text-white text-lg mr-1 w-auto mt-3 md:w-[18rem] lg:w-[18rem] xl:w-[38rem] 2xl:w-[58rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, maxime eum. Sequi, distinctio laudantium voluptatem fuga unde excepturi magnam reiciendis, quisquam, repudiandae similique impedit mollitia beatae odio. Ab, assumenda error.</p>
+      <a href="login" class="px-3 items-center text-center mt-5 w-64 rounded-[6.5px] text-black bg-white py-2">
+        <span class="text-black text-font font-bold text-lg">More İnfo</span>
+      </a>
+    </div>
+       
+  </div>
 
 </div>
 
