@@ -23,13 +23,13 @@
   <div class="min-h-screen flex justify-center items-center px-3 bg-gradient-to-t from-[#202225]  boyut ">
       <div class="items-center mt-16 sm:mb-32 flex flex-col  ">
         <img class=" h-32 sm:mt-0 mb-5 mt-10 sm:h-40 xl:mt-32 2xl:h-52 " src={logo2} alt="">
-        <h1 class=" text-center  text-white/70 mt-3 text-font  sm:w-[40rem]  text-lg break-words ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia ab quae provident natus! Illum, quia! Debitis, atque incidunt accusantium, quo dicta maiores voluptatibus magni repudiandae illo nobis omnis. Voluptatem?</h1>
+        <h1 class=" text-center  text-white/70 mt-3 text-font  sm:w-[40rem] text-md break-words ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia ab quae provident natus! Illum, quia! Debitis, atque incidunt accusantium, quo dicta maiores voluptatibus magni repudiandae illo nobis omnis. Voluptatem?</h1>
               <div class="relative w-[5rem] sm:w-[10rem] lg:w-[40rem]">
-                <img  src={sarı} class=" absolute right-[11rem] sm:right-[23rem] md:right-[24rem] lg:right-[38rem] top-3 h-5" alt="">
+                <img  src={sarı} class=" absolute right-[11rem] sm:right-[23rem] md:right-[24rem] lg:right-[38rem] top-5 h-5" alt="">
               </div>
-              <div class="flex sm:flex-row flex-col items-center gap-4">
-                <a target="_blank" href="https://discord.gg/7GvdW2V7" class="mr-1  w-72  mb-4 px-5 sm:px-3 py-2  text-font justify-center mt-5  outline-none focus:outline-none  ease-linear transition-all duration-150 hover:bg-[#3845cf] text-white bg-[#404eed] items-center flex space-x-3 font-bold rounded-[6.5px] text-lg sm:text-xl"><img src={plus} class="w-5 h-5" alt=""> <h1>Add To Discord</h1></a>
-                <a target="_blank" href="https://discord.gg/7GvdW2V7" class="w-72  bg-white mb-4 px-5 sm:px-3 py-1.5 justify-center text-font mt-5  outline-none focus:outline-none  ease-linear transition-all duration-150  text-black  items-center flex space-x-3 font-bold rounded-[6.5px] text-lg sm:text-xl"><i class="fa-brands text-black fa-discord text-2xl "></i> <h1>Join Server</h1></a>
+              <div class="flex sm:flex-row mt-4 flex-col items-center gap-4">
+                <a target="_blank" href="https://discord.gg/7GvdW2V7" class="mr-1 w-72 b-4 h-10  sm:px-3 py-2  text-font justify-center   outline-none focus:outline-none  ease-linear transition-all duration-150 hover:bg-[#3845cf] text-white bg-[#404eed] items-center flex space-x-3 font-bold rounded-[6.5px] text-lg sm:text-xl"><img src={plus} class="w-5 h-5" alt=""> <h1>Add To Discord</h1></a>
+                <a target="_blank" href="https://discord.gg/7GvdW2V7" class="w-72 bg-white mb-4 h-10  sm:px-3 py-1.5 justify-center text-font mt-[1rem] outline-none focus:outline-none  ease-linear transition-all duration-150  text-black  items-center flex space-x-3 font-bold rounded-[6.5px] text-lg sm:text-xl"><i class="fa-brands text-black fa-discord text-2xl "></i> <h1>Join Server</h1></a>
              
               </div>
               <div class="relative w-[5rem] sm:w-[10rem] lg:w-[40rem] ">
@@ -83,13 +83,14 @@
   </div>
   <div class="h-0.5 w-[10rem] sm:w-[40rem]  bg-[#444649]"></div>
 </div>
-<div class="flex items-center relative bg-[#202225] flex-col h-96">
+<div class="flex items-center text-start bg-[#202225] flex-col h-96">
   <span class="text-font text-[#afafaf] text-xl">Features</span>
   <h1 class="text-white text-font font-extrabold text-5xl">Leaderboards</h1>
-  <div class="w-full px-4 h-[50rem] items-center justify-center mt-10 flex bg-[#18191c]">
-      <img data-aos="fade-up" src={leader} class="lg:absolute pointer-events-none top-2 h-auto px-5 py-5  " alt="">
-  </div>
+    <img data-aos="fade-up" src={leader} class="absolute object-cover w-auto h-[40rem] mb-5" alt="">
+   <p class="text-font absolute mt-[45rem] text-xl text-white sm:w-[80rem] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto unde placeat sint laudantium veniam quas, enim sit veritatis ullam harum ducimus asperiores delectus alias optio? Temporibus corporis odio fugiat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint voluptatibus delectus, tempore excepturi maiores enim quisquam fugit ab temporibus aspernatur magnam cum eius quo nesciunt iure ea facere deserunt voluptate.</p>   
 </div>
+<div class="min-h-screen bg-[#202225]">
 
+</div>
 
 
