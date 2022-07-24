@@ -44,7 +44,7 @@
 
 <div class="min-h-screen  space-y-20 flex flex-col items-center justify-center px-5 py-10 2xl:px-32 bg-[#202225]">
   <div  class="lg:bg-gradient-to-r bg-gradient-to-b py-3 flex lg:flex-row flex-col items-center lg:justify-end justify-center px-3 mt-5 lg:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
-    <img src={server} class="lg:absolute pointer-events-none md:h-72 lg:h-96 h-72  left-10 mr-5" alt="">
+    <img data-aos="fade-up" src={server} class="lg:absolute pointer-events-none md:h-72 lg:h-96 h-72  left-10 mr-5" alt="">
     <div data-aos="fade-up" class="flex lg:text-end text-center items-center lg:items-end flex-col">
       <h2 class="text-font text-end mr-4 text-[#afafaf]">Features</h2>
       <h1 class="text-font text-white font-extrabold text-4xl mr-4">Server</h1>
@@ -57,7 +57,7 @@
   </div>
     <div class="h-0.5 w-[10rem] sm:w-[40rem] mt-5 bg-[#444649]"></div>
   <div  class="lg:bg-gradient-to-l bg-gradient-to-b py-3 flex lg:flex-row flex-col items-center lg:justify-start justify-center px-3 mt-5 lg:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
-    <img src={rank} class="lg:absolute pointer-events-none  lg:h-64 xl:h-72 h-40  right-5 " alt="">
+    <img data-aos="fade-up" src={rank} class="lg:absolute pointer-events-none  lg:h-64 xl:h-72 h-40  right-5 " alt="">
     <div data-aos="fade-up" class="flex mt-4 lg:text-start text-center items-center lg:items-start flex-col">
       <h2 class="text-font text-end mr-4 text-[#afafaf]">Features</h2>
       <h1 class="text-font text-white font-extrabold text-4xl mr-4">Ranking</h1>
@@ -69,8 +69,8 @@
        
   </div>
     <div class="h-0.5 w-[10rem] sm:w-[40rem] mt-5 bg-[#444649]"></div>
-  <div class="lg:bg-gradient-to-r bg-gradient-to-b py-3 flex lg:flex-row flex-col items-center lg:justify-end justify-center px-3 mt-5 lg:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
-    <img src={slash} class="lg:absolute pointer-events-none mt-3 lg:h-72 h-52 left-10 mr-5" alt="">
+  <div  class="lg:bg-gradient-to-r bg-gradient-to-b py-3 flex lg:flex-row flex-col items-center lg:justify-end justify-center px-3 mt-5 lg:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
+    <img data-aos="fade-up" src={slash} class="lg:absolute pointer-events-none mt-3 lg:h-72 h-52 left-10 mr-5" alt="">
     <div data-aos="fade-up" class="flex lg:text-end text-center items-center lg:items-end flex-col">
       <h2 class="text-font text-end mr-4 mt-10 text-[#afafaf]">Features</h2>
       <h1 class="text-font text-white font-extrabold text-4xl mr-4">And More, More</h1>
