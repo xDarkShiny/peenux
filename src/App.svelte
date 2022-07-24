@@ -5,6 +5,7 @@
   import plus from "./assets/icon.svg"
   import sarı from "./assets/sar.svg"
   import mavi from "./assets/mavi.svg"
+  import server from "./assets/servers.svg"
 </script>
 <style>
   .text-font {
@@ -14,7 +15,7 @@
 <Navbar />
 <div class="bg-cover bg-center min-h-screen" style="background-image: url({bg})"></div>
  <div class="absolute inset-0">
-  <div  data-aos="zoom-in" class="min-h-screen flex justify-center items-center px-3 bg-gradient-to-t from-[#202225]  boyut ">
+  <div class="min-h-screen flex justify-center items-center px-3 bg-gradient-to-t from-[#202225]  boyut ">
       <div class="items-center mt-16 sm:mb-32 flex flex-col  ">
         <img class="h-32 sm:mt-0 mb-5 mt-10 sm:h-40 xl:mt-32 2xl:h-52" src={logo2} alt="">
         <h1 class=" text-center  text-white/70 mt-3 text-font  sm:w-[40rem]  text-lg break-words ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita officia ab quae provident natus! Illum, quia! Debitis, atque incidunt accusantium, quo dicta maiores voluptatibus magni repudiandae illo nobis omnis. Voluptatem?</h1>
@@ -36,7 +37,14 @@
    </a>
  </div>  
 
-<div class="min-h-screen bg-[#202225]"></div>
+<div class="min-h-screen px-5 py-10 sm:px-20 bg-[#202225]">
+  <div class="bg-gradient-to-l relative  flex lg:flex-row flex-col px-4 items-center justify-between mt-5 h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
+      <h1>dasds</h1>
+        <img src={server} class="absolute  inset-y-0 lg:left-[23rem] xl:left-[49rem] 2xl:left-[77rem] h-96" alt="">
+  </div>
+
+
+</div>
 
 
 
