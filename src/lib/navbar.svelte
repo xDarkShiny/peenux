@@ -19,7 +19,7 @@
           </div>
         </div>
       <div class="md:block pointer-events-auto hidden">
-        <a href="login" class="bg-[#404eed] mr-3 text-style hover:bg-[#3845cf] text-white font-bold text-md px-7 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mb-1 ease-linear transition-all duration-150">
+        <a href="login" class="bg-[#404eed] mr-1 text-style hover:bg-[#3845cf] text-white font-bold text-md px-7 py-3 rounded-full shadow hover:shadow-lg outline-none focus:outline-none mb-1 ease-linear transition-all duration-150">
           <span class="text-white text-font font-bold ">Login</span>
         </a>
       </div>
