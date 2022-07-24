@@ -7,8 +7,8 @@
   }
 </style>
 
-<div class="w-full sm:mt-0 flex py-4 bg-gradient-to-b from-[#202225] z-40 fixed  inset-x-0 top-0 items-center justify-center h-auto">
-  <div class="w-auto pointer-events-none outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 h-16 flex px-2 items-center bg-[#18191c] justify-between space-x-32 md:space-x-28 lg:space-x-32 rounded-full cursor-pointer backdrop-blur-xl shadow-xl bg-opacity-50">
+<div class="w-full sm:mt-0 flex py-4 bg-gradient-to-b from-[black] z-40 fixed  inset-x-0 top-0 items-center justify-center h-auto">
+  <div class="w-auto pointer-events-none outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 h-16 flex px-1 items-center bg-[#18191c] justify-between space-x-32 md:space-x-28 lg:space-x-40 rounded-full cursor-pointer backdrop-blur-xl shadow-xl bg-opacity-50">
       <img id="image" src={logo} class="h-8 ml-5" alt="">
         <div class="md:block hidden">
           <div class="flex space-x-5 pointer-events-auto lg:space-x-7">

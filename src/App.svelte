@@ -8,7 +8,7 @@
   import server from "./assets/servers.svg"
   import rank from "./assets/rankcard.svg"
   import slash from "./assets/slashcommands.svg"
-
+  import leader from "./assets/leaderboards.svg"
 
 </script>
 <style>
@@ -42,13 +42,13 @@
    </a>
  </div>  
 
-<div class="min-h-screen  space-y-20 flex flex-col items-center justify-center px-5 py-10 2xl:px-32 bg-[#202225]">
+<div class="min-h-screen  space-y-20 flex flex-col items-center justify-center px-5 py-10 2xl:px-64 bg-[#202225]">
   <div  class="lg:bg-gradient-to-r bg-gradient-to-b py-3 flex lg:flex-row flex-col items-center lg:justify-end justify-center px-3 mt-5 lg:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
-    <img data-aos="fade-up" src={server} class="lg:absolute pointer-events-none md:h-72 lg:h-96 h-72  left-10 mr-5" alt="">
+    <img data-aos="fade-up" src={server} class="lg:absolute pointer-events-none md:h-72 lg:h-96 h-72  left-40 mr-5" alt="">
     <div data-aos="fade-up" class="flex lg:text-end text-center items-center lg:items-end flex-col">
       <h2 class="text-font text-end mr-4 text-[#afafaf]">Features</h2>
       <h1 class="text-font text-white font-extrabold text-4xl mr-4">Server</h1>
-      <p class="text-font text-white text-lg mr-1 w-auto mt-3 md:w-[20rem] lg:w-[20rem] xl:w-[40rem] 2xl:w-[60rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, maxime eum. Sequi, distinctio laudantium voluptatem fuga unde excepturi magnam reiciendis, quisquam, repudiandae similique impedit mollitia beatae odio. Ab, assumenda error.</p>
+      <p class="text-font text-white text-lg mr-1 w-auto mt-3 md:w-[20rem] lg:w-[20rem] xl:w-[30rem] 2xl:w-[48rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, maxime eum. Sequi, distinctio laudantium voluptatem fuga unde excepturi magnam reiciendis, quisquam, repudiandae similique impedit mollitia beatae odio. Ab, assumenda error.</p>
       <a href="login" class="px-3 items-center text-center mt-5 w-64 rounded-[6.5px] text-black bg-white py-2">
         <span class="text-black text-font font-bold text-lg">More İnfo</span>
       </a>
@@ -57,7 +57,7 @@
   </div>
     <div class="h-0.5 w-[10rem] sm:w-[40rem] mt-5 bg-[#444649]"></div>
   <div  class="lg:bg-gradient-to-l bg-gradient-to-b py-3 flex lg:flex-row flex-col items-center lg:justify-start justify-center px-3 mt-5 lg:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
-    <img data-aos="fade-up" src={rank} class="lg:absolute pointer-events-none  lg:h-64 xl:h-72 h-40  right-5 " alt="">
+    <img data-aos="fade-up" src={rank} class="lg:absolute pointer-events-none  lg:h-64 xl:h-72 h-40  right-40 " alt="">
     <div data-aos="fade-up" class="flex mt-4 lg:text-start text-center items-center lg:items-start flex-col">
       <h2 class="text-font text-end mr-4 text-[#afafaf]">Features</h2>
       <h1 class="text-font text-white font-extrabold text-4xl mr-4">Ranking</h1>
@@ -68,21 +68,27 @@
     </div>
        
   </div>
-    <div class="h-0.5 w-[10rem] sm:w-[40rem] mt-5 bg-[#444649]"></div>
+    <div class="h-0.5 w-[10rem] sm:w-[40rem] mt-5  bg-[#444649]"></div>
   <div  class="lg:bg-gradient-to-r bg-gradient-to-b py-3 flex lg:flex-row flex-col items-center lg:justify-end justify-center px-3 mt-5 lg:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
-    <img data-aos="fade-up" src={slash} class="lg:absolute pointer-events-none mt-3 lg:h-72 h-52 left-10 mr-5" alt="">
+    <img data-aos="fade-up" src={slash} class="lg:absolute pointer-events-none mt-3 lg:h-72 h-52 left-20 mr-5" alt="">
     <div data-aos="fade-up" class="flex lg:text-end text-center items-center lg:items-end flex-col">
       <h2 class="text-font text-end mr-4 mt-10 text-[#afafaf]">Features</h2>
       <h1 class="text-font text-white font-extrabold text-4xl mr-4">And More, More</h1>
-      <p class="text-font text-white text-lg mr-1 w-auto mt-3 md:w-[18rem] lg:w-[18rem] xl:w-[38rem] 2xl:w-[58rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, maxime eum. Sequi, distinctio laudantium voluptatem fuga unde excepturi magnam reiciendis, quisquam, repudiandae similique impedit mollitia beatae odio. Ab, assumenda error.</p>
+      <p class="text-font text-white text-lg mr-1 w-auto mt-3 md:w-[20rem] lg:w-[20rem] xl:w-[30rem] 2xl:w-[40rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, maxime eum. Sequi, distinctio laudantium voluptatem fuga unde excepturi magnam reiciendis, quisquam, repudiandae similique impedit mollitia beatae odio. Ab, assumenda error.</p>
       <a href="login" class="px-3 items-center text-center mt-5 w-64 rounded-[6.5px] text-black bg-white py-2">
         <span class="text-black text-font font-bold text-lg">More İnfo</span>
       </a>
     </div>
        
   </div>
-  <div class="h-0.5 w-[10rem] sm:w-[40rem] mt-5 bg-[#444649]"></div>
-
+  <div class="h-0.5 w-[10rem] sm:w-[40rem]  bg-[#444649]"></div>
+</div>
+<div class="flex items-center relative bg-[#202225] flex-col h-96">
+  <span class="text-font text-[#afafaf] text-xl">Features</span>
+  <h1 class="text-white text-font font-extrabold text-5xl">Leaderboards</h1>
+  <div class="w-full px-4 h-[50rem] items-center justify-center mt-10 flex bg-[#18191c]">
+      <img data-aos="fade-up" src={leader} class="lg:absolute pointer-events-none top-2 h-auto px-5 py-5  " alt="">
+  </div>
 </div>
 
 
