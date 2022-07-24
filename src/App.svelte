@@ -87,7 +87,7 @@
   <span class="text-font text-[#afafaf] text-xl">Features</span>
   <h1 class="text-white text-font font-extrabold text-5xl">Leaderboards</h1>
     <img data-aos="fade-up" src={leader} class="absolute object-cover w-auto h-[40rem] mb-5" alt="">
-   <p class="text-font absolute mt-[45rem] text-xl text-white sm:w-[80rem] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto unde placeat sint laudantium veniam quas, enim sit veritatis ullam harum ducimus asperiores delectus alias optio? Temporibus corporis odio fugiat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint voluptatibus delectus, tempore excepturi maiores enim quisquam fugit ab temporibus aspernatur magnam cum eius quo nesciunt iure ea facere deserunt voluptate.</p>   
+   <p class="text-font absolute mt-[45rem] text-xl text-white 2xl:w-[80rem] px-2 break-words text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto unde placeat sint laudantium veniam quas, enim sit veritatis ullam harum ducimus asperiores delectus alias optio? Temporibus corporis odio fugiat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint voluptatibus delectus, tempore excepturi maiores enim quisquam fugit ab temporibus aspernatur magnam cum eius quo nesciunt iure ea facere deserunt voluptate.</p>   
 </div>
 <div class="min-h-screen bg-[#202225]">
 
