@@ -88,6 +88,27 @@
   <h1 class="text-white text-font font-extrabold text-5xl">Leaderboards</h1>
     <img data-aos="fade-up" src={leader} class="absolute object-cover w-auto h-[40rem] mb-5" alt="">
    <p class="text-font absolute mt-[45rem] text-xl text-white 2xl:w-[80rem] px-2 break-words text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic architecto unde placeat sint laudantium veniam quas, enim sit veritatis ullam harum ducimus asperiores delectus alias optio? Temporibus corporis odio fugiat! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint voluptatibus delectus, tempore excepturi maiores enim quisquam fugit ab temporibus aspernatur magnam cum eius quo nesciunt iure ea facere deserunt voluptate.</p>   
+   <div class="h-0.5 w-[10rem] sm:w-[40rem] sm:mt-[30rem] mt-[50rem] flex justify-center items-center bg-[#444649]"></div>
+
+  </div>
+
+<h1 class="text-white text-center sm:mt-[30rem] mt-[20rem]  text-font font-extrabold text-5xl">Statistics</h1>
+<div class="bg-[#18191c] justify-center items-center  mt-5 flex flex-wrap gap-20 w-full sm:py-0 py-5 h-auto sm:h-52 sm:mt-5">
+  <div class="flex items space-y-2 items-center flex-col">
+    <span class="text-font font-extrabold text-xl text-[#afafaf]">Total</span>
+    <h1 class="text-font text-5xl text-white font-extrabold">500+</h1>
+    <span class="text-font font-extrabold text-xl text-[#afafaf]">Server</span>
+  </div>
+  <div class="flex items space-y-2 items-center flex-col">
+    <span class="text-font font-extrabold text-xl text-[#afafaf]">Total</span>
+    <h1 class="text-font text-5xl text-white font-extrabold">500+</h1>
+    <span class="text-font font-extrabold text-xl text-[#afafaf]">Server</span>
+  </div>
+  <div class="flex items space-y-2 items-center flex-col">
+    <span class="text-font font-extrabold text-xl text-[#afafaf]">Total</span>
+    <h1 class="text-font text-5xl text-white font-extrabold">500+</h1>
+    <span class="text-font font-extrabold text-xl text-[#afafaf]">Server</span>
+  </div>
 </div>
 <div class="min-h-screen bg-[#202225]">
 
