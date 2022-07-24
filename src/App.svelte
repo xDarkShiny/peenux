@@ -24,8 +24,8 @@
                 <img  src={sarı} class=" absolute right-[11rem] sm:right-[23rem] md:right-[24rem] lg:right-[38rem] top-3 h-5" alt="">
               </div>
               <div class="flex sm:flex-row flex-col items-center gap-4">
-                <a target="_blank" href="https://discord.gg/7GvdW2V7" class="mr-1 pointer-events-none w-72  mb-4 px-5 sm:px-3 py-2  text-font justify-center mt-5  outline-none focus:outline-none  ease-linear transition-all duration-150 hover:bg-[#3845cf] text-white bg-[#404eed] items-center flex space-x-3 font-bold rounded-[6.5px] text-lg sm:text-xl"><img src={plus} class="w-5 h-5" alt=""> <h1>Add To Discord</h1></a>
-                <a target="_blank" href="https://discord.gg/7GvdW2V7" class="w-72 pointer-events-none   bg-white mb-4 px-5 sm:px-3 py-1.5 justify-center text-font mt-5  outline-none focus:outline-none  ease-linear transition-all duration-150  text-black  items-center flex space-x-3 font-bold rounded-[6.5px] text-lg sm:text-xl"><i class="fa-brands text-black fa-discord text-2xl "></i> <h1>Join Server</h1></a>
+                <a target="_blank" href="https://discord.gg/7GvdW2V7" class="mr-1  w-72  mb-4 px-5 sm:px-3 py-2  text-font justify-center mt-5  outline-none focus:outline-none  ease-linear transition-all duration-150 hover:bg-[#3845cf] text-white bg-[#404eed] items-center flex space-x-3 font-bold rounded-[6.5px] text-lg sm:text-xl"><img src={plus} class="w-5 h-5" alt=""> <h1>Add To Discord</h1></a>
+                <a target="_blank" href="https://discord.gg/7GvdW2V7" class="w-72  bg-white mb-4 px-5 sm:px-3 py-1.5 justify-center text-font mt-5  outline-none focus:outline-none  ease-linear transition-all duration-150  text-black  items-center flex space-x-3 font-bold rounded-[6.5px] text-lg sm:text-xl"><i class="fa-brands text-black fa-discord text-2xl "></i> <h1>Join Server</h1></a>
              
               </div>
               <div class="relative w-[5rem] sm:w-[10rem] lg:w-[40rem] ">
@@ -39,9 +39,17 @@
  </div>  
 
 <div class="min-h-screen px-5 py-10 2xl:px-20 bg-[#202225]">
-  <div class="md:bg-gradient-to-l bg-gradient-to-t relative py-3 flex md:flex-row flex-col items-center md:justify-end px-3 mt-5 h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
-    <img src={server} class="absolute pointer-events-none h-96 md:inset-x-4 right-0" alt="">
-    <h1>dasds</h1>
+  <div class="md:bg-gradient-to-l bg-gradient-to-t relative py-3 flex md:flex-row flex-col items-center md:justify-end justify-start px-3 mt-5 md:h-96 rounded-[6.5px] w-full from-[#18191c] to-[#202225]">
+    <img src={server} class="md:absolute pointer-events-none md:h-96 h-52 md:inset-x-4 right-0" alt="">
+    <div class="flex text-end items-end flex-col">
+      <h2 class="text-font text-end mr-4 text-[#afafaf]">Features</h2>
+      <h1 class="text-font text-white font-extrabold text-4xl mr-4">Ranking</h1>
+      <p class="text-font text-white text-lg mr-1 w-auto mt-3 xl:w-[40rem] 2xl:w-[60rem]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, maxime eum. Sequi, distinctio laudantium voluptatem fuga unde excepturi magnam reiciendis, quisquam, repudiandae similique impedit mollitia beatae odio. Ab, assumenda error.</p>
+      <a href="login" class="px-3 items-center text-center mt-5 w-52 rounded-full text-black bg-white py-2">
+        <span class="text-black text-font font-bold text-lg">More İnfo</span>
+      </a>
+    </div>
+       
   </div>
 
 
